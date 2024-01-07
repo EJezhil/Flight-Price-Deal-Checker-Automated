@@ -9,16 +9,15 @@ import smtplib
 import os
 
 
-email = os.getenv('EMAIL')
-password = os.getenv('PASSWORD')
+username = os.getenv('email')
+password = os.getenv('password')
 sheety_API = os.getenv('sheety_API')
 kiwi_API = os.getenv('kiwi_API')
+
 
 IATA = []
 price_details = []
 str =""
-username = email
-password =password
 
 from_place = "MAA"
 to_place = "PAR"
